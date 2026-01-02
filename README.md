@@ -281,18 +281,18 @@ TO: window.location.replace(SERVER + "/InternGatingRound.html?ygdbr" ...
 
 ## 4. Verification
 
-Stop Server (if running).
-Project -> Clean... in Eclipse (Critical step!).
-Start Server.
-Open Browser -> Login with a new user.
-Outcome: "Who are you?" screen appears.
-Click "Engineer".
-Outcome: Redirects to Profile.
-Logout & Login again with same user.
-Outcome: Goes straight to Profile (skips selection).
-Troubleshooting
-Error related to SQLException or List or Response?
-Check Step 0 in Java sections. You likely missed adding the Imports to the top of the file.
-404 Not Found when clicking "Engineer"?
-You probably didn't restart variables/server correctly. Restart the server.
-Check InternGatingRound.html -> apiBaseUrl. It should be /portal/portal/register.
+- Stop Server (if running).
+- Project -> Clean... in Eclipse (Critical step!).
+- Start Server.
+- Open Browser -> Login with a new user.
+- Outcome: "Who are you?" screen appears.
+- Click "Engineer".
+- Outcome: Redirects to Profile.
+- Logout & Login again with same user.
+- Outcome: Goes straight to Profile (skips selection).
+- Troubleshooting
+- Error related to SQLException or List or Response?
+- Check Step 0 in Java sections. You likely missed adding the Imports to the top of the file.
+- 404 Not Found when clicking "Engineer"?
+- You probably didn't restart variables/server correctly. Restart the server.
+- Check InternGatingRound.html -> apiBaseUrl. It should be /portal/portal/register.
