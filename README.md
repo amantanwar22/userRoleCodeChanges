@@ -281,8 +281,7 @@ TO: window.location.replace(SERVER + "/InternGatingRound.html?ygdbr" ...
 
 ## 4. Verification
 
-- Stop Server (if running).
-- Project -> Clean... in Eclipse (Critical step!).
+- Stop Server 
 - Start Server.
 - Open Browser -> Login with a new user.
 - Outcome: "Who are you?" screen appears.
